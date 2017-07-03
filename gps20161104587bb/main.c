@@ -10,7 +10,7 @@
 int main()
 {
     FILE *fp=fopen("//Users//student40//Desktop//gps20161104587bb//GPS170510.log", "r");
-    FILE *fp1=fopen("//Users//student40//Desktop//gps20161104587bb//shuchu.csv", "r+");
+    FILE *fp1=fopen("//Users//student40//Desktop//gps20161104587bb//biaodan.csv", "r+");
     int i;
     char g1[63];
     char g2[70];
@@ -76,6 +76,7 @@ int main()
             
             
             
+            
             for(i=0;i<2;i++)
                 s[i]=g1[i+7];
             s[2]='\0';
@@ -105,4 +106,3 @@ int main()
     fclose(fp);
     return 0;
 }
-
